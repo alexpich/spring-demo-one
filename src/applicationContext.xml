@@ -40,7 +40,7 @@
     
     
     <!-- Random -->
-    <bean id="myRandomCoach" class="com.alex.RandomCoach">
+    <bean id="myRandomCoach" class="com.alex.RandomCoach" scope="prototype">
   	
     	<!-- Setup Setter injection -->
     	<property name="randomFortuneService" ref="myRandomFortuneService"/>    
